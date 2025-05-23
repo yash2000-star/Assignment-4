@@ -11,7 +11,7 @@
     <style>
         .jumbotron{
             text-align: center;
-            margin: 50px;
+            margin: 2rem auto;
             background-color: rgb(48, 48, 221);
             color: white !important;
         }
@@ -19,7 +19,6 @@
             text-align: center;
         }
         .card-deck{
-            margin-left: 80px;
             padding-top: 20px;
 
         }
@@ -33,10 +32,18 @@
             margin-top: 50px;
             padding-bottom: 150px;
         }
+          body {
+             overflow-x: hidden;
+        }
+        img {
+           max-width: 100%;
+           height: auto;
+        }
+
     </style>
   </head>
   <body data-spy="scroll" data-target="#navbar" data-offset="150">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-light  bg-light fixed-top" id="navbar">
   <a class="navbar-brand" href="#">TaskMate</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
